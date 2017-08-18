@@ -50,4 +50,8 @@ body{
 .mu-tab-link-highlight{
   background-color:rgba(163,163,163,1);
 }
+.mu-grid-tile{
+  width: 100%;
+  height: 1rem;
+}
 </style>
