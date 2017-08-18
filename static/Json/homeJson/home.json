@@ -1,0 +1,32 @@
+[
+  {
+    "title": "标题1",
+    "list": [
+      {
+        "path":"/home",
+        "name":"home",
+        "icon":"home"
+      }
+    ]
+  },
+  {
+    "title": "标题2",
+    "list": [
+      {
+        "path":"/home2",
+        "name":"home2",
+        "icon":"home2"
+      }
+    ]
+  },
+  {
+    "title": "标题3",
+    "list": [
+      {
+        "path":"/home3",
+        "name":"home3",
+        "icon":"home3"
+      }
+    ]
+  }
+]
