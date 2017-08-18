@@ -1,0 +1,14 @@
+8.18
+1.npm install 时出错
+原因：安装默认依赖国外包，当网络不稳定时会安装不成功
+解决：使用淘宝镜像  npm install -g cnpm --registry=https://registry.npm.taobao.org
+
+2.npm run dev最后不成功，查看8080端口是否被占用
+解决：1.在windows命令行窗口下执行：netstat -aon|findstr "80" 
+      2.看到端口被进程号为xxxx的进程占用，继续执行下面命令：
+      tasklist|findstr "xxxx"
+      3.如果第二步查不到，那就开任务管理器，看哪个进程是xxxx，然后杀之即可。 
+3.关于vue-cli的本地开发 
+  端口
+      默认端口号是8080
+      如果希望修改端口号，则进入~\config\index.js，修改dev下的port为希望启动的端口号 如：8888
