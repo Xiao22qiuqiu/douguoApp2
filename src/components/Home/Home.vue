@@ -27,25 +27,15 @@
 export default {
   data () {
     return {
-      activeTab: 'tuijian',
-      list: ''
+      activeTab: 'tuijian'
     }
   },
   methods: {
     handleTabChange (val) {
       this.activeTab = val
+      // 将选项卡切换id 设为路由路径切换
       this.$router.push({ path: '/Home/' + val })
     }
-  },
-  created () {
-    // GET /someUrl
-    this.$http.get('../../static/Json/homeJson/homeList.json').then(response => {
-    // get body data
-      this.list = response.body.list
-      console.log(this.list)
-    }, response => {
-  // error callback
-    })
   }
 }
 </script>

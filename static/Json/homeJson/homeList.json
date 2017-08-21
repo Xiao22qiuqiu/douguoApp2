@@ -1,43 +1,25 @@
 {
   "list": [{
-    "image": "/static/img/foodShow2.73e6569.jpg",
-    "title": "Breakfast",
+    "image": "http://i1.douguo.net//upload/shicai/1446026042.jpg",
+    "title": "木耳",
     "author": "Myron",
     "featured": true
     },
     {
-    "image": "/static/img/foodShow2.73e6569.jpg",
-    "title": "Breakfast",
+    "image": "http://i1.douguo.net//upload/shicai/1446026450.jpg",
+    "title": "苹果",
     "author": "Myron",
     "featured": true
     },
     {
-    "image": "/static/img/foodShow2.73e6569.jpg",
-    "title": "Breakfast",
+    "image": "http://i1.douguo.net//upload/shicai/1446100846.jpg",
+    "title": "芋头",
     "author": "Myron",
     "featured": true
     },
     {
-    "image": "/static/img/foodShow2.73e6569.jpg",
-    "title": "Breakfast",
-    "author": "Myron",
-    "featured": true
-    },
-    {
-    "image": "/static/img/foodShow2.73e6569.jpg",
-    "title": "Breakfast",
-    "author": "Myron",
-    "featured": true
-    },
-    {
-    "image": "/static/img/foodShow2.73e6569.jpg",
-    "title": "Breakfast",
-    "author": "Myron",
-    "featured": true
-    },
-    {
-    "image": "/static/img/foodShow2.73e6569.jpg",
-    "title": "Breakfast",
+    "image": "http://i1.douguo.net//upload/shicai/1446100499.jpg",
+    "title": "菠菜",
     "author": "Myron",
     "featured": true
     }

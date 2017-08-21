@@ -12,13 +12,15 @@
     <div class="todayShow">今日午餐</div>
     <div class="gridlist-demo-container">
       <mu-grid-list class="gridlist-inline-demo">
-        <mu-grid-tile v-for="tile, index in list" :key="index">
+        <mu-grid-tile v-for="(tile, index) in list" :key="index">
           <img :src="tile.image">
           <span slot="title">{{tile.title}}</span>
           <span slot="subTitle">by <b>{{tile.author}}</b></span>
-          <mu-icon-button icon="" slot="action"/></mu-icon-button>  
         </mu-grid-tile>
       </mu-grid-list>
+    </div>
+    <div>
+      
     </div>
   </div>
 </template>
@@ -50,9 +52,6 @@ export default {
 }
 /*GridList*/
 .mu-grid-list{
-  height: 1rem;
-}
-.mu-grid-tile{
   height: 1rem;
 }
 .gridlist-demo-container{

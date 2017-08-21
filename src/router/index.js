@@ -35,9 +35,10 @@ export default new Router({
     {
       path: '/personalHomepage',
       component: require('../components/personalHomepage/personalHomepage')
-    },
-    {
-      path: '*', redirect: '/Home/tuijian'
     }]
+    // ,
+    // {
+    //   path: '*', redirect: '/Home/tuijian'
+    // }
 }
 )
