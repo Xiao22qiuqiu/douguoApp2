@@ -25,6 +25,7 @@ export default {
   position: fixed;
   bottom:0;
   width: 100%;
+  background-color: #fff;
   border-top: 0.014rem solid #ddd;
   /*background: #999;*/
   .bottom-nav{

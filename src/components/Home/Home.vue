@@ -89,6 +89,7 @@ export default {
   margin-left: 0.15rem;
   margin-right: 0.15rem;
   margin-top: 1.15rem;
+  margin-bottom: 1.15rem;
 }
 /*.tabcontennt::-webkit-scrollbar {
   display: none;

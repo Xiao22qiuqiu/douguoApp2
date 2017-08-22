@@ -11,16 +11,16 @@
     </div>
     <div class="todayShow">今日午餐</div>
     <div class="gridlist-demo-container">
-      <mu-grid-list class="gridlist-inline-demo">
-        <mu-grid-tile v-for="(tile, index) in list" :key="index">
+      <mu-grid-list class="gridlist-inline-demo" >
+        <mu-grid-tile v-for="(tile, index) in list" :key="index" style="height:1rem;padding:0;">
           <img :src="tile.image">
           <span slot="title">{{tile.title}}</span>
           <span slot="subTitle">by <b>{{tile.author}}</b></span>
         </mu-grid-tile>
       </mu-grid-list>
     </div>
-    <div>
-      
+    <div class="picList">
+       
     </div>
   </div>
 </template>
@@ -46,6 +46,10 @@ export default {
 </script>
 
 <style scoped>
+.tuijian{
+  z-index: -10;
+  overflow: auto;
+}
 .tuijian .carousel{
   margin-top: 0.2rem;
   margin-bottom: 0.2rem;
@@ -74,5 +78,12 @@ export default {
   line-height: 0.3rem;
   border: 1px solid #ddd;
   margin: auto;
+}
+.picList{
+  border: 1px solid #ddd;
+  height: 1.2rem;
+}
+.mu-grid-tile-titlebar{
+  height: 0.5rem;
 }
 </style>
